@@ -4,7 +4,6 @@ merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
 # Pending
 merge groups-4.x remotes/fire/cubic-interpolation
-merge groups-4.x remotes/fire/meshoptimizer-update
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # Skeleton
 merge groups-4.x remotes/godot-extended-libraries-godot-fire/features/skeleton-modification-stack
