@@ -1,15 +1,19 @@
 stage groups-4.x remotes/godotengine/master
+
 # VRM
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
+
 # Pending
 merge groups-4.x remotes/fire/cubic-interpolation
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
+
 # Skeleton
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
-merge groups-4.x remotes/godot-fire/features/skeleton-gizmos
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
+merge groups-4.x remotes/v-sekai-godot/features/godot-3d-mod-stack-bone-gizmos
+
 # merge extended-fire-master remotes/bruvzg/msdf_fonts # diverged
 # merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
 # merge extended-fire-master remotes/lyuma/speech_master
