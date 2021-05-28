@@ -16,7 +16,7 @@ merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
-
+merge groups-4.x remotes/v-sekai-godot/disable-shadow-mesh
 
 # merge extended-fire-master remotes/bruvzg/msdf_fonts # diverged
 # merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
