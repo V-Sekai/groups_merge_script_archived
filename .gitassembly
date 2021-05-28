@@ -2,7 +2,7 @@ stage groups-4.x remotes/godotengine/master
 
 # gltf
 
-merge groups-4.x remotes/lyuma/gltf_mesh_nodes_bones
+merge groups-4.x remotes/v-sekai-godot /gltf_mesh_nodes_bones
 
 # VRM
 merge groups-4.x remotes/lyuma/fix_gdscript_export
@@ -11,6 +11,8 @@ merge groups-4.x remotes/lyuma/expose_import
 # Pending
 merge groups-4.x remotes/fire/cubic-interpolation
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
+merge groups-4.x remotes/lyuma/disable-shadow-mesh
+
 
 # Skeleton
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
