@@ -1,5 +1,9 @@
 stage groups-4.x remotes/godotengine/master
 
+# gltf
+
+merge groups-4.x remotes/lyuma/gltf_mesh_nodes_bones
+
 # VRM
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
@@ -12,6 +16,7 @@ merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
+
 
 # merge extended-fire-master remotes/bruvzg/msdf_fonts # diverged
 # merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
