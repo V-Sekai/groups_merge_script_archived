@@ -19,3 +19,8 @@ merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
+
+# XR
+
+merge groups-4.x remotes/BastiaanOlij/multiview_stereoscopic
+merge groups-4.x remotes/BastiaanOlij/improve_xr_gdnative

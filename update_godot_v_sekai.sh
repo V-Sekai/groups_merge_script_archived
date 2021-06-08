@@ -3,47 +3,63 @@ set -e
 git stash
 
 echo -e "Checkout remotes"
+#
 git remote rm SaracenOne || true
 git remote add SaracenOne https://github.com/SaracenOne/godot
 git remote set-url --push SaracenOne https://example.com/
 git fetch SaracenOne
+#
 git remote rm lyuma || true
 git remote add lyuma https://github.com/lyuma/godot
 git remote set-url --push lyuma https://example.com/
 git fetch lyuma
+#
 git remote rm godot-fire || true
 git remote add godot-fire https://github.com/godot-extended-libraries/godot-fire
 git remote set-url --push godot-fire https://example.com/
 git fetch godot-fire
+#
 git remote rm fire || true
 git remote add fire https://github.com/fire/godot
 git remote set-url --push fire https://example.com/
 git fetch fire
+#
 git remote rm godotengine || true
 git remote add godotengine https://github.com/godotengine/godot
 git remote set-url --push godotengine https://example.com/
 git fetch godotengine
+#
 git remote rm v-sekai-godot || true
 git remote add v-sekai-godot git@github.com:V-Sekai/godot.git
 # Need permission to push
 #git remote set-url --push v-sekai-godot https://example.com/
 git fetch v-sekai-godot
+#
 git remote rm TwistedTwigleg || true
 git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot.git
 git remote set-url --push TwistedTwigleg https://example.com/
 git fetch TwistedTwigleg
+#
 git remote rm JFonS || true
 git remote add JFonS https://github.com/JFonS/godot.git
 git remote set-url --push JFonS https://example.com/
 git fetch JFonS
+#
 git remote rm Xrayez || true
 git remote add Xrayez https://github.com/Xrayez/godot.git
 git remote set-url --push Xrayez https://example.com/
 git fetch Xrayez
+#
 git remote rm YeldhamDev || true
 git remote add YeldhamDev https://github.com/YeldhamDev/godot.git
 git remote set-url --push YeldhamDev https://example.com/
 git fetch YeldhamDev
+#
+git remote rm BastiaanOlij || true
+git remote add BastiaanOlij https://github.com/BastiaanOlij/godot.git
+git remote set-url --push BastiaanOlij https://example.com/
+git fetch BastiaanOlij
+#
 
 echo -e "Work"
 git stash
