@@ -60,6 +60,11 @@ git remote add BastiaanOlij https://github.com/BastiaanOlij/godot.git
 git remote set-url --push BastiaanOlij https://example.com/
 git fetch BastiaanOlij
 #
+git remote rm floppyhammer || true
+git remote add floppyhammer https://github.com/floppyhammer/godot.git
+git remote set-url --push floppyhammer https://example.com/
+git fetch floppyhammer
+#
 
 echo -e "Work"
 git stash

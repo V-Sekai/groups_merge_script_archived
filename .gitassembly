@@ -1,5 +1,8 @@
 stage groups-4.x remotes/godotengine/master
 
+# Texture compression
+merge groups-4.x remotes/floppyhammer/fix-vram-compressed-mipmaps
+
 # gltf
 merge groups-4.x remotes/lyuma/gltf_mesh_nodes_bones
 # merge extended-fire-master remotes/lyuma/speech_master
