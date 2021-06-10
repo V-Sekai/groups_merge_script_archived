@@ -24,6 +24,5 @@ merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
 
 # XR
-
-merge groups-4.x remotes/BastiaanOlij/multiview_stereoscopic
-merge groups-4.x remotes/BastiaanOlij/improve_xr_gdnative
+# merge groups-4.x remotes/BastiaanOlij/multiview_stereoscopic
+# merge groups-4.x remotes/BastiaanOlij/improve_xr_gdnative
