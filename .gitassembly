@@ -2,8 +2,8 @@ stage groups-4.x remotes/godotengine/master
 
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
 
-# Texture compression
-merge groups-4.x remotes/floppyhammer/fix-vram-compressed-mipmaps
+# msdf
+merge groups-4.x remotes/bruvzg/msdf_fonts
 
 # gltf
 # merge extended-fire-master remotes/lyuma/speech_master
