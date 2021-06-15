@@ -16,7 +16,7 @@ merge groups-4.x remotes/lyuma/expose_import
 
 # Pending
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
-merge groups-4.x remotes/8-weights
+merge groups-4.x remotes/fire/8-weights
 # merge groups-4.x remotes/fire/cubic-interpolation
 # merge groups-4.x remotes/bruvzg/msdf_fonts # diverged
 
