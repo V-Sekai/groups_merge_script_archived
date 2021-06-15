@@ -65,6 +65,11 @@ git remote add floppyhammer https://github.com/floppyhammer/godot.git
 git remote set-url --push floppyhammer https://example.com/
 git fetch floppyhammer
 #
+git remote rm bruvzg || true
+git remote add bruvzg https://github.com/bruvzg/godot.git
+git remote set-url --push bruvzg https://example.com/
+git fetch bruvzg
+#
 
 echo -e "Work"
 git stash
