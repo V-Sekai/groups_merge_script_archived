@@ -6,7 +6,6 @@ merge groups-4.x remotes/JFonS/fix_unwrap_xform
 merge groups-4.x remotes/floppyhammer/fix-vram-compressed-mipmaps
 
 # gltf
-merge groups-4.x remotes/lyuma/gltf_mesh_nodes_bones
 # merge extended-fire-master remotes/lyuma/speech_master
 # merge extended-fire-master remotes/fire/gltf-export-fixes
 # merge extended-fire-master remotes/fire/gltf-export-02
@@ -16,8 +15,9 @@ merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
 
 # Pending
-merge groups-4.x remotes/fire/cubic-interpolation
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
+merge groups-4.x remotes/8-weights
+# merge groups-4.x remotes/fire/cubic-interpolation
 # merge groups-4.x remotes/bruvzg/msdf_fonts # diverged
 
 # Skeleton
