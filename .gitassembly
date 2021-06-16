@@ -3,6 +3,7 @@ stage groups-4.x remotes/godotengine/master
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
 
 merge groups-4.x remotes/fire/bc7enc_rdo
+merge groups-4.x remotes/fire/save-stex-null
 
 # gltf
 # merge extended-fire-master remotes/lyuma/speech_master
