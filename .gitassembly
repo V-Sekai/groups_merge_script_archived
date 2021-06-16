@@ -2,6 +2,8 @@ stage groups-4.x remotes/godotengine/master
 
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
 
+merge groups-4.x remotes/fire/bc7enc_rdo
+
 # msdf
 merge groups-4.x remotes/bruvzg/msdf_fonts
 
