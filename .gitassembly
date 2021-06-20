@@ -1,24 +1,11 @@
 stage groups-4.x remotes/godotengine/master
-
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
-
 merge groups-4.x remotes/lyuma/bc7enc_rdo
-
 merge groups-4.x remotes/fire/shadow-mesh
-
-# merge extended-fire-master remotes/lyuma/speech_master
-# merge extended-fire-master remotes/fire/gltf-export-fixes
-# merge extended-fire-master remotes/fire/gltf-export-02
-
-# VRM
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
-
-# Pending
 merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
-
-# Skeleton
 merge groups-4.x remotes/godot-fire/features/skeleton-modification-stack
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
