@@ -57,6 +57,10 @@ git remote rm bruvzg || true
 git remote add bruvzg https://github.com/bruvzg/godot.git
 git fetch bruvzg
 #
+git remote rm tokage || true
+git remote add tokage https://github.com/TokageItLab/godot.git
+git fetch tokage
+#
 
 echo -e "Work"
 git stash
