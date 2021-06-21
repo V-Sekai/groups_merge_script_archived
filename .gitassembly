@@ -1,13 +1,13 @@
-stage remotes/godot-fire/groups-4.x remotes/godotengine/master
-merge remotes/godot-fire/groups-4.x remotes/JFonS/fix_unwrap_xform
-merge remotes/godot-fire/groups-4.x remotes/fire/faster-cvtt
-merge remotes/godot-fire/groups-4.x remotes/fire/shadow-mesh
-merge remotes/godot-fire/groups-4.x remotes/lyuma/fix_gdscript_export
-merge remotes/godot-fire/groups-4.x remotes/lyuma/expose_import
-merge remotes/godot-fire/groups-4.x remotes/fire/gltf-bone-skinning-normalization
-# merge remotes/godot-fire/groups-4.x remotes/fire/cubic-interpolation
-merge remotes/godot-fire/groups-4.x remotes/godot-fire/feature/bone-parent-to-child
-merge remotes/godot-fire/groups-4.x remotes/godot-fire/feature/spatial-audio
-stage remotes/godot-fire/groups-4.x-skeleton-gizmos remotes/tokage/implement-skeleton-editor-gizmo
-merge remotes/godot-fire/groups-4.x-skeleton-gizmos remotes/godot-fire/features/skeleton-modification-stack
-merge remotes/godot-fire/groups-4.x remotes/godot-fire/groups-4.x-skeleton-gizmos
+stage groups-4.x remotes/godotengine/master
+merge groups-4.x remotes/JFonS/fix_unwrap_xform
+merge groups-4.x remotes/fire/faster-cvtt
+merge groups-4.x remotes/fire/shadow-mesh
+merge groups-4.x remotes/lyuma/fix_gdscript_export
+merge groups-4.x remotes/lyuma/expose_import
+merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
+# merge groups-4.x remotes/fire/cubic-interpolation
+merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
+merge groups-4.x remotes/godot-fire/feature/spatial-audio
+stage groups-4.x-skeleton-gizmos remotes/tokage/implement-skeleton-editor-gizmo
+merge groups-4.x-skeleton-gizmos remotes/godot-fire/features/skeleton-modification-stack
+merge groups-4.x groups-4.x-skeleton-gizmos
