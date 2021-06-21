@@ -10,4 +10,4 @@ merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
 stage remotes/godot-fire/groups-4.x-skeleton-gizmos remotes/tokage/implement-skeleton-editor-gizmo
 merge remotes/godot-fire/groups-4.x-skeleton-gizmos remotes/godot-fire/features/skeleton-modification-stack
-merge groups-4.x groups-4.x-skeleton-gizmos
+merge groups-4.x remotes/godot-fire/groups-4.x-skeleton-gizmos
