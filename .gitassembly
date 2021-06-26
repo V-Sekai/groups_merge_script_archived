@@ -1,5 +1,6 @@
 stage groups-4.x remotes/godotengine/master
 merge groups-4.x remotes/fire/thorvg
+merge groups-4.x remotes/godot-fire/features/skeleton3d-modification-stack-ik
 merge groups-4.x remotes/tokage/implement-skeleton-editor-gizmo
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
 merge groups-4.x remotes/fire/faster-cvtt
@@ -9,4 +10,3 @@ merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
-merge groups-4.x remotes/godot-fire/features/skeleton3d-modification-stack-ik
