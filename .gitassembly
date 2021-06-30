@@ -9,9 +9,7 @@ merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
 
 # Pending start
-merge groups-4.x remotes/fire/protocol-shadow
 merge groups-4.x remotes/fire/gdscript-shadow
-merge groups-4.x remotes/fire/vulkan-error
 merge groups-4.x remotes/fire/port-false
 # Pending end
 
