@@ -13,7 +13,7 @@ merge groups-4.x remotes/fire/gdscript-shadow
 merge groups-4.x remotes/fire/port-false
 # Pending end
 
-merge groups-4.x remotes/fire/gltf-export-blend-shape
+# merge groups-4.x remotes/fire/gltf-export-blend-shape
 merge groups-4.x remotes/fire/gltf-export-02
 
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
