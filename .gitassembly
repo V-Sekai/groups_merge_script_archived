@@ -1,4 +1,5 @@
 stage groups-4.x remotes/godotengine/master
+merge groups-4.x remotes/reduz/fix-render-info
 merge groups-4.x remotes/fire/thorvg
 merge groups-4.x remotes/godot-fire/features/skeleton3d-modification-stack-ik
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
