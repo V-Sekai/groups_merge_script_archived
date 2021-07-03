@@ -8,11 +8,6 @@ merge groups-4.x remotes/lyuma/expose_import
 merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/spatial-audio
 
-# Pending start
-merge groups-4.x remotes/fire/gdscript-shadow
-merge groups-4.x remotes/fire/port-false
-# Pending end
-
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 merge groups-4.x remotes/fire/gltf-export-02
 
