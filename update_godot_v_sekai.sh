@@ -8,6 +8,10 @@ git remote rm reduz || true
 git remote add reduz https://github.com/reduz/godot
 git fetch reduz
 #
+git remote rm GiantBlargg || true
+git remote add GiantBlargg https://github.com/GiantBlargg/godot
+git fetch GiantBlargg
+#
 git remote rm SaracenOne || true
 git remote add SaracenOne https://github.com/SaracenOne/godot
 git fetch SaracenOne
