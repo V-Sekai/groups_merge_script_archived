@@ -11,8 +11,8 @@ merge groups-4.x remotes/godot-fire/feature/spatial-audio
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 merge groups-4.x remotes/fire/gltf-export-02
 
-merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 merge groups-4.x remotes/godot-fire/feature/bake-reset-anim
+merge groups-4.x remotes/godot-fire/feature/bone-parent-to-child
 
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
