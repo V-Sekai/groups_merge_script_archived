@@ -12,6 +12,7 @@ merge groups-4.x remotes/godot-fire/feature/spatial-audio
 merge groups-4.x remotes/fire/gltf-export-02
 
 merge groups-4.x remotes/godot-fire/feature/bake-reset-anim
+merge groups-4.x remotes/v-sekai-godot/fps-30
 
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
