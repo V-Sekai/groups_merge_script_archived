@@ -1,6 +1,5 @@
 stage groups-4.x remotes/godotengine/master
-merge groups-4.x remotes/akien-mga/iterators-const-references
-merge groups-4.x remotes/v-sekai-godot/gdscript-regressions
+merge groups-4.x remotes/v-sekai-godot/gdscript-regression
 merge groups-4.x remotes/fire/thorvg
 #merge groups-4.x remotes/godot-fire/features/skeleton3d-modification-stack-ik
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
