@@ -69,6 +69,10 @@ git remote rm tokage || true
 git remote add tokage https://github.com/TokageItLab/godot.git
 git fetch tokage
 #
+git remote rm akien-mga || true
+git remote add akien-mga https://github.com/akien-mga/godot.git
+git fetch akien-mga
+#
 
 echo -e "Work"
 git stash
