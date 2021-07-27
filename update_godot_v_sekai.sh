@@ -73,6 +73,10 @@ git remote rm akien-mga || true
 git remote add akien-mga https://github.com/akien-mga/godot.git
 git fetch akien-mga
 #
+git remote rm ellenhp || true
+git remote add ellenhp https://github.com/ellenhp/godot.git
+git fetch ellenhp
+#
 
 echo -e "Work"
 git stash
