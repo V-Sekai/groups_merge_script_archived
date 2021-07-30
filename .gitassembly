@@ -4,7 +4,6 @@ merge groups-4.x remotes/v-sekai-godot/bake-reset-anim
 merge groups-4.x remotes/v-sekai-godot/mix-buffer-settings-4.x
 merge groups-4.x remotes/v-sekai-godot/scene-mesh-static-collider
 merge groups-4.x remotes/v-sekai-godot/trimesh-vs-multi-convex
-merge groups-4.x remotes/v-sekai-godot/gltf-fallbacks
 merge groups-4.x remotes/fire/thorvg
 #merge groups-4.x remotes/godot-fire/features/skeleton3d-modification-stack-ik
 merge groups-4.x remotes/JFonS/fix_unwrap_xform
