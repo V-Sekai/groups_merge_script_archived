@@ -1,6 +1,4 @@
 stage groups-4.x remotes/godotengine/master
-
-merge groups-4.x remotes/v-sekai-godot/bake-reset-anim
 merge groups-4.x remotes/v-sekai-godot/mix-buffer-settings-4.x
 merge groups-4.x remotes/v-sekai-godot/scene-mesh-static-collider
 merge groups-4.x remotes/v-sekai-godot/trimesh-vs-multi-convex
