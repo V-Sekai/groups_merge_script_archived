@@ -2,10 +2,7 @@ stage groups-4.x remotes/godotengine/master
 merge groups-4.x remotes/TwistedTwigleg/GSOC_2020_Working_Branch_IK
 merge groups-4.x remotes/v-sekai-godot/mix-buffer-settings-4.x
 merge groups-4.x remotes/v-sekai-godot/scene-mesh-static-collider
-merge groups-4.x remotes/v-sekai-godot/trimesh-vs-multi-convex
 merge groups-4.x remotes/fire/thorvg
-merge groups-4.x remotes/tokage/implement-skeleton-editor-gizmo
-merge groups-4.x remotes/JFonS/fix_unwrap_xform
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/lyuma/expose_import
