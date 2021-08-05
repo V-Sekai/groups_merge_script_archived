@@ -1,5 +1,4 @@
 stage groups-4.x remotes/godotengine/master
-merge groups-4.x remotes/tokage/fix-gizmo-transform-scaling
 merge groups-4.x remotes/TwistedTwigleg/GSOC_2020_Working_Branch_IK
 merge groups-4.x remotes/v-sekai-godot/mix-buffer-settings-4.x
 merge groups-4.x remotes/v-sekai-godot/scene-mesh-static-collider
