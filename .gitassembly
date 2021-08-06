@@ -1,5 +1,4 @@
 stage groups-4.x remotes/godotengine/master
-merge groups-4.x remotes/v-sekai-godot/gltf-lights
 merge groups-4.x remotes/TwistedTwigleg/GSOC_2020_Working_Branch_IK
 merge groups-4.x remotes/v-sekai-godot/mix-buffer-settings-4.x
 merge groups-4.x remotes/v-sekai-godot/blend-tree-crash
@@ -11,6 +10,7 @@ merge groups-4.x remotes/godot-fire/feature/spatial-audio
 merge groups-4.x remotes/fire/unidot
 merge groups-4.x remotes/v-sekai-godot/fps-30
 merge groups-4.x remotes/fire/gltf-export-02
+merge groups-4.x remotes/v-sekai-godot/gltf-lights
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
