@@ -77,7 +77,10 @@ git remote rm ellenhp || true
 git remote add ellenhp https://github.com/ellenhp/godot.git
 git fetch ellenhp
 #
-
+git remote rm theoway || true
+git remote add theoway  https://github.com/theoway/godot.git
+git fetch theoway
+#
 echo -e "Work"
 git stash
 export ORIGINAL_BRANCH=merge-script-4.x
