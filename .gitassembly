@@ -9,6 +9,7 @@ merge groups-4.x remotes/fire/unidot
 merge groups-4.x remotes/v-sekai-godot/fps-30
 merge groups-4.x remotes/fire/gltf-export-02
 merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio
+merge groups-4.x remotes/v-sekai-godot/subdivision
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
