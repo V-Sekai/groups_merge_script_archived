@@ -81,7 +81,7 @@ git remote rm theoway || true
 git remote add theoway  https://github.com/theoway/godot.git
 git fetch theoway
 #
-sgit remote rm Je06jm || true
+git remote rm Je06jm || true
 git remote add Je06jm https://github.com/Je06jm/godot.git
 git fetch Je06jm
 #
