@@ -85,7 +85,10 @@ git remote rm Je06jm || true
 git remote add Je06jm https://github.com/Je06jm/godot.git
 git fetch Je06jm
 #
-
+git remote rm requizm || true
+git remote add requizm https://github.com/requizm/godot.git
+git fetch requizm
+#
 echo -e "Work"
 git stash
 export ORIGINAL_BRANCH=merge-script-4.x
