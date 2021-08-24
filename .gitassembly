@@ -8,7 +8,7 @@ merge groups-4.x remotes/lyuma/expose_import
 merge groups-4.x remotes/v-sekai-godot/fps-30
 merge groups-4.x remotes/fire/gltf-export-02
 merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio
-merge groups-4.x remotes/lyuma/msdf_fonts2tmp
+merge groups-4.x remotes/bruvzg/msdf_fonts2
 merge groups-4.x remotes/Je06jm/fsr
 merge groups-4.x remotes/v-sekai-godot/anim-length
 merge groups-4.x remotes/mhilbrunner/vs-fix-reloaded
