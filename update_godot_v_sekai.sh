@@ -89,10 +89,7 @@ git remote rm requizm || true
 git remote add requizm https://github.com/requizm/godot.git
 git fetch requizm
 #
-git remote rm mhilbrunner || true
-git remote add mhilbrunner https://github.com/mhilbrunner/godot.git
-git fetch mhilbrunner
-#
+
 echo -e "Work"
 git stash
 export ORIGINAL_BRANCH=merge-script-4.x
