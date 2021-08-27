@@ -89,6 +89,11 @@ git remote rm requizm || true
 git remote add requizm https://github.com/requizm/godot.git
 git fetch requizm
 #
+git remote rm AndreaCatania || true
+git remote add AndreaCatania https://github.com/AndreaCatania/godot.git
+git fetch AndreaCatania
+#
+
 
 echo -e "Work"
 git stash
