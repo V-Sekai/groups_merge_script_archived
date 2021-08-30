@@ -93,6 +93,10 @@ git remote rm AndreaCatania || true
 git remote add AndreaCatania https://github.com/AndreaCatania/godot.git
 git fetch AndreaCatania
 #
+git remote rm jonbonazza || true
+git remote add jonbonazza https://github.com/jonbonazza/godot.git
+git fetch jonbonazza
+#
 
 
 echo -e "Work"
