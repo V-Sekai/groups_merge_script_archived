@@ -10,7 +10,7 @@ merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
 merge groups-4.x remotes/fire/gltf-export-02
 merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio
 merge groups-4.x remotes/AndreaCatania/coll
-merge groups-4.x remotes/jonbonazza/curl
+# merge groups-4.x remotes/jonbonazza/curl
 # merge groups-4.x remotes/v-sekai-godot/subdivision
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
