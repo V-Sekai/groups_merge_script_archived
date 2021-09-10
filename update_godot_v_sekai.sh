@@ -97,7 +97,10 @@ git remote rm jonbonazza || true
 git remote add jonbonazza https://github.com/jonbonazza/godot.git
 git fetch jonbonazza
 #
-
+git remote rm vnen || true
+git remote add vnen https://github.com/vnen/godot.git
+git fetch vnen
+#
 
 echo -e "Work"
 git stash
