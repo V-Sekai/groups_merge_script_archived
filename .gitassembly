@@ -11,7 +11,7 @@ merge groups-4.x remotes/v-sekai-godot/fps-30
 merge groups-4.x remotes/AndreaCatania/coll
 merge groups-4.x remotes/tokage/implement-skeleton-editor-gizmo
 merge groups-4.x remotes/v-sekai-godot/bone-parent-to-child
-merge groups-4.x remotes/v-sekai-godot/gltf_8_uv
+# merge groups-4.x remotes/v-sekai-godot/gltf_8_uv
 merge groups-4.x remotes/vnen/gdscript-singleton-interdependence-fix
 merge groups-4.x remotes/JFonS/lod_fixes
 # merge groups-4.x remotes/jonbonazza/curl
