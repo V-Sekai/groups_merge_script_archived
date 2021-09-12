@@ -102,7 +102,7 @@ git remote add vnen https://github.com/vnen/godot.git
 git fetch vnen
 #
 
-function merge_branch {
+function merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
     git branch -D $MERGE_BRANCH || true
     python3 ./thirdparty/git-assembler -av --recreate
