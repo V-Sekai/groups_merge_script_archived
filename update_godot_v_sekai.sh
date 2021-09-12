@@ -102,17 +102,6 @@ git remote add vnen https://github.com/vnen/godot.git
 git fetch vnen
 #
 
-echo -e "Work"
-git stash
-export ORIGINAL_BRANCH=merge-script-4.x
-export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=groups-4.x
-merge_branch
-export ORIGINAL_BRANCH=merge-script-4.x
-export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=groups-library-4.x
-merge_branch
-
 function merge_branch {
     git checkout $ORIGINAL_BRANCH --force
     git branch -D $MERGE_BRANCH || true
@@ -126,3 +115,14 @@ function merge_branch {
     git checkout $ORIGINAL_BRANCH --force
     git branch -D $MERGE_BRANCH || true
 }
+
+echo -e "Work"
+git stash
+export ORIGINAL_BRANCH=merge-script-4.x
+export MERGE_REMOTE=v-sekai-godot
+export MERGE_BRANCH=groups-4.x
+merge_branch
+export ORIGINAL_BRANCH=merge-script-4.x
+export MERGE_REMOTE=v-sekai-godot
+export MERGE_BRANCH=groups-library-4.x
+merge_branch
