@@ -107,14 +107,22 @@ git stash
 export ORIGINAL_BRANCH=merge-script-4.x
 export MERGE_REMOTE=v-sekai-godot
 export MERGE_BRANCH=groups-4.x
-git checkout $ORIGINAL_BRANCH --force
-git branch -D $MERGE_BRANCH || true
-python3 ./thirdparty/git-assembler -av --recreate
-git checkout $MERGE_BRANCH -f
-export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-export MERGE_TAG=$(echo groups-4.x.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
-git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
-git push $MERGE_REMOTE $MERGE_TAG
-git push $MERGE_REMOTE $MERGE_BRANCH -f
-git checkout $ORIGINAL_BRANCH --force
-git branch -D $MERGE_BRANCH || true
+merge_branch
+export ORIGINAL_BRANCH=merge-script-4.x
+export MERGE_REMOTE=v-sekai-godot
+export MERGE_BRANCH=groups-library-4.x
+merge_branch
+
+function merge_branch {
+    git checkout $ORIGINAL_BRANCH --force
+    git branch -D $MERGE_BRANCH || true
+    python3 ./thirdparty/git-assembler -av --recreate
+    git checkout $MERGE_BRANCH -f
+    export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+    export MERGE_TAG=$(echo $MERGE_BRANCH.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
+    git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
+    git push $MERGE_REMOTE $MERGE_TAG
+    git push $MERGE_REMOTE $MERGE_BRANCH -f
+    git checkout $ORIGINAL_BRANCH --force
+    git branch -D $MERGE_BRANCH || true
+}
