@@ -122,7 +122,3 @@ export ORIGINAL_BRANCH=merge-script-4.x
 export MERGE_REMOTE=v-sekai-godot
 export MERGE_BRANCH=groups-4.x
 merge_branch
-export ORIGINAL_BRANCH=merge-script-4.x
-export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=groups-library-4.x
-merge_branch

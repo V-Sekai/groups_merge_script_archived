@@ -17,5 +17,3 @@ merge groups-4.x remotes/v-sekai-godot/gltf-extensions
 # merge groups-4.x remotes/fire/gltf-export-blend-shape
 # merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # merge groups-4.x remotes/fire/cubic-interpolation
-#stage groups-library-4.x groups-4.x
-#merge groups-library-4.x remotes/v-sekai-godot/elixir
