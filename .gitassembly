@@ -12,7 +12,6 @@ merge groups-4.x remotes/tokage/implement-skeleton-editor-gizmo
 merge groups-4.x remotes/v-sekai-godot/bone-parent-to-child
 merge groups-4.x remotes/v-sekai-godot/extension-api
 merge groups-4.x remotes/BastiaanOlij/gd_extension_dependencies
-merge groups-4.x remotes/v-sekai-godot/openvr-render-server
 merge groups-4.x remotes/fire/thorvg
 # merge groups-4.x remotes/v-sekai-godot/gltf-extensions
 # merge groups-4.x remotes/JFonS/lod_fixes
