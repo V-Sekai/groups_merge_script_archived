@@ -10,7 +10,7 @@ merge groups-4.x remotes/v-sekai-godot/bone-parent-to-child
 merge groups-4.x remotes/v-sekai-godot/extension-api
 merge groups-4.x remotes/BastiaanOlij/gdextension_property_group
 merge groups-4.x remotes/BastiaanOlij/xr_extension_return_buffers
-merge groups-4.x remotes/v-sekai-godot/gltf-extensions
+# merge groups-4.x remotes/v-sekai-godot/gltf-extensions
 # merge groups-4.x remotes/fire/thorvg
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
