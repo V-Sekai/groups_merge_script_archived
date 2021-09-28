@@ -31,31 +31,20 @@ git fetch v-sekai-godot
 git remote rm TwistedTwigleg || true
 git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot.git
 git remote set-url --push TwistedTwigleg https://example.com/
-git fetch TwistedTwigleg
-git remote rm JFonS || true
-git remote add JFonS https://github.com/JFonS/godot.git
-git remote set-url --push JFonS https://example.com/
-git fetch JFonS
-git remote rm Xrayez || true
-git remote add Xrayez https://github.com/Xrayez/godot.git
-git remote set-url --push Xrayez https://example.com/
-git fetch Xrayez
-git remote rm YeldhamDev || true
-git remote add YeldhamDev https://github.com/YeldhamDev/godot.git
-git remote set-url --push YeldhamDev https://example.com/
-git fetch YeldhamDev
-
+git remote rm you-win || true
+git remote add you-win https://github.com/you-win/godot.git
+git remote set-url --push you-win https://example.com/
 echo -e "Work"
 git stash
-export ORIGINAL_BRANCH=merge-script-master
+export ORIGINAL_BRANCH=merge-script-web
 export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=groups
+export MERGE_BRANCH=groups-web
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
 python3 ./thirdparty/git-assembler -av --recreate
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-export MERGE_TAG=$(echo groups.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
+export MERGE_TAG=$(echo groups-web.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push $MERGE_REMOTE $MERGE_TAG
 git push $MERGE_REMOTE $MERGE_BRANCH -f
