@@ -1,11 +1,9 @@
 stage groups-4.x remotes/godotengine/master
 merge groups-4.x remotes/fire/spreadsheet-master
 merge groups-4.x remotes/v-sekai-godot/gltf-alpha
-merge groups-4.x remotes/v-sekai-godot/blend-tree-crash
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/v-sekai-godot/fps-30
-merge groups-4.x remotes/tokage/implement-skeleton-editor-gizmo
 merge groups-4.x remotes/v-sekai-godot/groups-4.0-converter
 # merge groups-4.x remotes/fire/thorvg
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
