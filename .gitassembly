@@ -8,7 +8,7 @@ merge groups-4.x remotes/v-sekai-godot/remove-collada
 merge groups-4.x remotes/v-sekai-godot/remove-fbx
 merge groups-4.x remotes/v-sekai-godot/remove-skeleton-ik-3d
 merge groups-4.x remotes/v-sekai-godot/matching-blend-shapes
-merge groups-4.x remotes/NathanLovato/animation-bezier-editor-ui-improvements
+merge groups-4.x remotes/NathanLovato/GDQuest/animation-bezier-editor-ui-improvements
 
 # merge groups-4.x remotes/fire/thorvg
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
