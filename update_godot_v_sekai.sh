@@ -37,6 +37,10 @@ git remote rm tokage || true
 git remote add tokage https://github.com/TokageItLab/godot.git
 git fetch tokage
 #
+git remote rm NathanLovato || true
+git remote add NathanLovato https://github.com/NathanLovato/godot
+git fetch NathanLovato
+#
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
