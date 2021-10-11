@@ -18,4 +18,5 @@ cd workspace
 ./update_repos.sh
 # Open visual studio code on workspace.
 # Start a build.
+# Go to https://github.com/V-Sekai/godot and update the mastre branch using the Github ui.
 ```
