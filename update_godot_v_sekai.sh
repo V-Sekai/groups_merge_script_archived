@@ -41,6 +41,10 @@ git remote rm NathanLovato || true
 git remote add NathanLovato https://github.com/NathanLovato/godot
 git fetch NathanLovato
 #
+git remote rm reduz || true
+git remote add reduz https://github.com/reduz/godot
+git fetch reduz
+#
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
