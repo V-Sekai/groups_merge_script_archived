@@ -4,7 +4,6 @@ merge groups-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
 merge groups-4.x remotes/v-sekai-godot/rot-interpolate
-merge groups-4.x remotes/v-sekai-godot/fps-30
 merge groups-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-4.x remotes/reduz/animation-track-type-import-actions
 merge groups-4.x remotes/v-sekai-godot/dev-yes
