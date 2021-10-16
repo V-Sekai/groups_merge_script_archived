@@ -46,7 +46,7 @@ git remote add reduz https://github.com/reduz/godot
 git fetch reduz
 #
 git remote rm TwistedTwigleg || true
-git remote add TwistedTwigleg https://github.com/TwistedTwigleg
+git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot
 git fetch TwistedTwigleg
 #
 
