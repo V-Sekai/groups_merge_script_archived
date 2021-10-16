@@ -45,6 +45,12 @@ git remote rm reduz || true
 git remote add reduz https://github.com/reduz/godot
 git fetch reduz
 #
+git remote rm TwistedTwigleg || true
+git remote add TwistedTwigleg https://github.com/TwistedTwigleg
+git fetch TwistedTwigleg
+#
+
+
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
