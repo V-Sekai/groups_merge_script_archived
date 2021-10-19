@@ -49,7 +49,10 @@ git remote rm TwistedTwigleg || true
 git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot
 git fetch TwistedTwigleg
 #
-
+git remote rm BastiaanOlij || true
+git remote add BastiaanOlij https://github.com/BastiaanOlij/godot.git
+git fetch BastiaanOlij
+#
 
 
 merge_branch () {
