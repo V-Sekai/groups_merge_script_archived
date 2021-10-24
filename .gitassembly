@@ -10,6 +10,7 @@ merge groups-4.x remotes/fire/thorvg
 merge groups-4.x remotes/v-sekai-godot/gltf-load-scene-buffer
 merge groups-4.x remotes/reduz/animation-compression
 merge groups-4.x remotes/v-sekai-godot/bigobj
+merge groups-4.x remotes/v-sekai-godot/keyframe-reduce
 
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
