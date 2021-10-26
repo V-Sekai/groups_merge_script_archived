@@ -53,7 +53,10 @@ git remote rm BastiaanOlij || true
 git remote add BastiaanOlij https://github.com/BastiaanOlij/godot.git
 git fetch BastiaanOlij
 #
-
+git remote rm qarmin || true
+git remote add qarmin https://github.com/qarmin/godot.git
+git fetch qarmin
+#
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
