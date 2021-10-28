@@ -7,7 +7,6 @@ merge groups-4.x remotes/v-sekai-godot/rot-interpolate
 merge groups-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-4.x remotes/v-sekai-godot/bake-rests
 # merge groups-4.x remotes/fire/thorvg
-merge groups-4.x remotes/v-sekai-godot/gltf-load-scene-buffer
 merge groups-4.x remotes/v-sekai-godot/bigobj
 merge groups-4.x remotes/v-sekai-godot/ninja-ccache
 merge groups-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
