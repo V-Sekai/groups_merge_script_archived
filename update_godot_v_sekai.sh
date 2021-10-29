@@ -57,6 +57,11 @@ git remote rm qarmin || true
 git remote add qarmin https://github.com/qarmin/godot.git
 git fetch qarmin
 #
+git remote rm briansemrau || true
+git remote add briansemrau https://github.com/briansemrau/godot.git
+git fetch briansemrau
+# 
+
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
