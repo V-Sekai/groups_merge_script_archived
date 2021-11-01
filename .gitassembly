@@ -14,6 +14,7 @@ merge groups-4.x remotes/lyuma/viewport_off_by_one
 merge groups-4.x remotes/lyuma/audio_stream_player_finished_signal
 merge groups-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-4.x remotes/v-sekai-godot/class-search-crash
+merge groups-4.x remotes/briansemrau/please-be-quiet
 
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
