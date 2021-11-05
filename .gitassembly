@@ -1,1 +1,2 @@
 stage groups-web remotes/godotengine/3.4
+merge groups remotes/v-sekai-godot/web-srgb
