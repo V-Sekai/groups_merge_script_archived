@@ -29,3 +29,4 @@ merge groups remotes/v-sekai-godot/flag_bind_fix
 merge groups remotes/v-sekai-godot/improve_skeleton_for_vrm_with_inspector_3.2
 merge groups remotes/v-sekai-godot/audio_effect_capture_3.2
 merge groups remotes/v-sekai-godot/fix-node-add2
+merge groups remotes/v-sekai-godot/scene_tree_improvements_3.2
