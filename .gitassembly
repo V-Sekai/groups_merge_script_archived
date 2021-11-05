@@ -18,6 +18,7 @@ merge groups-4.x remotes/briansemrau/please-be-quiet
 merge groups-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-4.x remotes/v-sekai-godot/editor-crash
 merge groups-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
+merge groups-4.x remotes/v-sekai-godot/gdscript-cache-null
 
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
