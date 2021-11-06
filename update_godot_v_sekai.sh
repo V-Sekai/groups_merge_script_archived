@@ -57,6 +57,10 @@ git remote rm qarmin || true
 git remote add qarmin https://github.com/qarmin/godot.git
 git fetch qarmin
 #
+git remote rm briansemrau || true
+git remote add briansemrau https://github.com/briansemrau/godot.git
+git fetch briansemrau
+# 
 git remote rm Faless || true
 git remote add Faless https://github.com/Faless/godot.git
 git fetch Faless
