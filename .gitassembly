@@ -10,7 +10,7 @@ merge groups remotes/v-sekai-godot/non-normalized-weight-fixes-3.4
 merge groups remotes/v-sekai-godot/load-interactive-no-cache-3.4
 merge groups remotes/v-sekai-godot/skeleton-ik-fix-3.4
 merge groups remotes/v-sekai-godot/vr-fixes-3.4
-merge groups remotes/v-sekai-godot/spatial-audio
+merge groups remotes/v-sekai-godot/spatial-audio-3.4
 merge groups remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge groups remotes/v-sekai-godot/inspector-metadata-3-2
 merge groups remotes/v-sekai-godot/glsl_precision_angle_fix
