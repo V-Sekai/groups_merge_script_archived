@@ -1,6 +1,6 @@
 stage groups remotes/v-sekai-godot/3.4
 merge groups remotes/v-sekai-godot/filesystem-dock-resource-converter-3.4
-merge groups remotes/v-sekai-godot/better_bullet
+# merge groups remotes/v-sekai-godot/better_bullet
 merge groups remotes/v-sekai-godot/rpc-mode-get-3.4
 merge groups remotes/v-sekai-godot/require-shader-3.4
 merge groups remotes/v-sekai-godot/shader-sampler-flag-compat-3.4
