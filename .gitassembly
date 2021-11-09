@@ -22,6 +22,7 @@ merge groups-4.x remotes/v-sekai-godot/gdscript-cache-null
 merge groups-4.x remotes/Faless/js/4.x_webgl
 merge groups-4.x remotes/reduz/animtree-advance-expressions
 merge groups-4.x remotes/v-sekai-godot/scene-reimport
+merge groups-4.x remotes/v-sekai-godot/fps-30
 
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
