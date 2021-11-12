@@ -65,6 +65,10 @@ git remote rm Faless || true
 git remote add Faless https://github.com/Faless/godot.git
 git fetch Faless
 # 
+git remote rm groud || true
+git remote add groud https://github.com/groud/godot.git
+git fetch groud
+# 
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
