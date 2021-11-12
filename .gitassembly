@@ -3,10 +3,7 @@ merge groups-4.x remotes/fire/spreadsheet-master
 merge groups-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
-# merge groups-4.x remotes/v-sekai-godot/rot-interpolate
 merge groups-4.x remotes/lyuma/gltf_shapes_8bones
-# merge groups-4.x remotes/v-sekai-godot/bake-rests
-# merge groups-4.x remotes/fire/thorvg
 merge groups-4.x remotes/v-sekai-godot/ninja-ccache
 merge groups-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
 merge groups-4.x remotes/lyuma/viewport_off_by_one
@@ -26,6 +23,9 @@ merge groups-4.x remotes/groud/fix_import_plugins
 merge groups-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-4.x remotes/jonbonazza/curl
 
+# merge groups-4.x remotes/v-sekai-godot/rot-interpolate
+# merge groups-4.x remotes/v-sekai-godot/bake-rests
+# merge groups-4.x remotes/fire/thorvg
 # merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio # Spatial audio being necromanced
 # merge groups-4.x remotes/v-sekai-godot/mesh-unwrap
 # merge groups-4.x remotes/v-sekai-godot/subdivision
