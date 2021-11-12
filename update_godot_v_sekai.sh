@@ -69,6 +69,10 @@ git remote rm groud || true
 git remote add groud https://github.com/groud/godot.git
 git fetch groud
 # 
+git remote rm jonbonazza || true
+git remote add jonbonazza https://github.com/jonbonazza/godot.git
+git fetch jonbonazza
+# 
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
