@@ -23,6 +23,30 @@ merge groups-4.x remotes/groud/fix_import_plugins
 merge groups-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-4.x remotes/jonbonazza/curl
 
+stage groups-web-4.x remotes/godotengine/master
+merge groups-web-4.x remotes/fire/spreadsheet-master
+merge groups-web-4.x remotes/v-sekai-godot/gltf-alpha
+merge groups-web-4.x remotes/lyuma/fix_gdscript_export
+merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
+merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache
+merge groups-web-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
+merge groups-web-4.x remotes/lyuma/viewport_off_by_one
+merge groups-web-4.x remotes/lyuma/audio_stream_player_finished_signal
+merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
+merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
+merge groups-web-4.x remotes/briansemrau/please-be-quiet
+merge groups-web-4.x remotes/v-sekai-godot/gdscript-crash
+merge groups-web-4.x remotes/v-sekai-godot/editor-crash
+merge groups-web-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
+merge groups-web-4.x remotes/v-sekai-godot/gdscript-cache-null
+merge groups-web-4.x remotes/Faless/js/4.x_webgl
+merge groups-web-4.x remotes/reduz/animtree-advance-expressions
+merge groups-web-4.x remotes/v-sekai-godot/scene-reimport
+merge groups-web-4.x remotes/v-sekai-godot/blend-io
+merge groups-web-4.x remotes/groud/fix_import_plugins
+merge groups-web-4.x remotes/v-sekai-godot/remove-etc1
+merge groups-web-4.x remotes/jonbonazza/curl
+
 # merge groups-4.x remotes/v-sekai-godot/rot-interpolate
 # merge groups-4.x remotes/v-sekai-godot/bake-rests
 # merge groups-4.x remotes/fire/thorvg
