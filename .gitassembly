@@ -1,5 +1,5 @@
 stage groups-4.x remotes/godotengine/master
-merge groups-4.x remotes/fire/spreadsheet-master
+# merge groups-4.x remotes/fire/spreadsheet-master
 merge groups-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
@@ -24,7 +24,7 @@ merge groups-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-4.x remotes/jonbonazza/curl
 
 stage groups-web-4.x remotes/godotengine/master
-merge groups-web-4.x remotes/fire/spreadsheet-master
+# merge groups-web-4.x remotes/fire/spreadsheet-master
 merge groups-web-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-web-4.x remotes/lyuma/fix_gdscript_export
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
