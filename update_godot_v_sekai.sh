@@ -73,6 +73,13 @@ git remote rm jonbonazza || true
 git remote add jonbonazza https://github.com/jonbonazza/godot.git
 git fetch jonbonazza
 # 
+git remote rm Chaosus || true
+git remote add Chaosus https://github.com/Chaosus/godot.git
+git fetch Chaosus
+# 
+
+
+
 
 merge_branch () {
     git checkout $ORIGINAL_BRANCH --force
