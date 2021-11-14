@@ -21,7 +21,7 @@ merge groups-4.x remotes/v-sekai-godot/scene-reimport
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/groud/fix_import_plugins
 merge groups-4.x remotes/v-sekai-godot/remove-etc1
-merge groups-4.x remotes/jonbonazza/curl
+#merge groups-4.x remotes/jonbonazza/curl
 merge groups-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-4.x remotes/Chaosus/fix_warning
 
@@ -47,7 +47,7 @@ merge groups-web-4.x remotes/v-sekai-godot/scene-reimport
 merge groups-web-4.x remotes/v-sekai-godot/blend-io
 merge groups-web-4.x remotes/groud/fix_import_plugins
 merge groups-web-4.x remotes/v-sekai-godot/remove-etc1
-merge groups-web-4.x remotes/jonbonazza/curl
+#merge groups-web-4.x remotes/jonbonazza/curl
 merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-web-4.x remotes/Chaosus/fix_warning
 
