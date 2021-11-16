@@ -25,6 +25,7 @@ merge groups-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-4.x remotes/Chaosus/fix_warning
 merge groups-4.x remotes/lyuma/node3d_gizmo_crash
+merge groups-4.x remotes/clayjohn/VULKAN-SRGB
 
 stage groups-web-4.x remotes/godotengine/master
 # merge groups-web-4.x remotes/fire/spreadsheet-master
@@ -52,6 +53,7 @@ merge groups-web-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-web-4.x remotes/Chaosus/fix_warning
 merge groups-web-4.x remotes/lyuma/node3d_gizmo_crash
+merge groups-web-4.x remotes/clayjohn/VULKAN-SRGB
 
 # merge groups-4.x remotes/v-sekai-godot/rot-interpolate
 # merge groups-4.x remotes/v-sekai-godot/bake-rests

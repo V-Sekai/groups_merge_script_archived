@@ -77,6 +77,12 @@ git remote rm Chaosus || true
 git remote add Chaosus https://github.com/Chaosus/godot.git
 git fetch Chaosus
 # 
+git remote rm clayjohn || true
+git remote add clayjohn https://github.com/clayjohn/godot.git
+git fetch clayjohn
+# 
+
+
 
 
 
