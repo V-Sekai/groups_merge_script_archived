@@ -17,7 +17,7 @@ merge groups-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
 merge groups-4.x remotes/v-sekai-godot/gdscript-cache-null
 merge groups-4.x remotes/Faless/js/4.x_webgl
 merge groups-4.x remotes/reduz/animtree-advance-expressions
-merge groups-4.x remotes/v-sekai-godot/scene-reimport
+# merge groups-4.x remotes/v-sekai-godot/scene-reimport
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/groud/fix_import_plugins
 merge groups-4.x remotes/v-sekai-godot/remove-etc1
@@ -44,7 +44,7 @@ merge groups-web-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-cache-null
 merge groups-web-4.x remotes/Faless/js/4.x_webgl
 merge groups-web-4.x remotes/reduz/animtree-advance-expressions
-merge groups-web-4.x remotes/v-sekai-godot/scene-reimport
+# merge groups-web-4.x remotes/v-sekai-godot/scene-reimport
 merge groups-web-4.x remotes/v-sekai-godot/blend-io
 merge groups-web-4.x remotes/groud/fix_import_plugins
 merge groups-web-4.x remotes/v-sekai-godot/remove-etc1
