@@ -3,14 +3,11 @@ stage groups-4.x remotes/godotengine/master
 merge groups-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-4.x remotes/fire/faster-cvtt
 merge groups-4.x remotes/lyuma/fix_gdscript_export
-merge groups-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-4.x remotes/v-sekai-godot/ninja-ccache
 merge groups-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
-merge groups-4.x remotes/lyuma/viewport_off_by_one
 merge groups-4.x remotes/lyuma/audio_stream_player_finished_signal
 merge groups-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-4.x remotes/v-sekai-godot/class-search-crash
-merge groups-4.x remotes/briansemrau/please-be-quiet
 merge groups-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-4.x remotes/v-sekai-godot/editor-crash
 merge groups-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
@@ -31,14 +28,11 @@ stage groups-web-4.x remotes/godotengine/master
 # merge groups-web-4.x remotes/fire/spreadsheet-master
 merge groups-web-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-web-4.x remotes/lyuma/fix_gdscript_export
-merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache
 merge groups-web-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
-merge groups-web-4.x remotes/lyuma/viewport_off_by_one
 merge groups-web-4.x remotes/lyuma/audio_stream_player_finished_signal
 merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
-merge groups-web-4.x remotes/briansemrau/please-be-quiet
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-web-4.x remotes/v-sekai-godot/editor-crash
 merge groups-web-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
