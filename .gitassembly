@@ -1,6 +1,5 @@
 stage groups-web-4.x remotes/godotengine/master
 merge groups-web-4.x remotes/v-sekai-godot/gltf-alpha
-merge groups-web-4.x remotes/fire/faster-cvtt
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache
 merge groups-web-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
@@ -18,3 +17,4 @@ merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-web-4.x remotes/lyuma/node3d_gizmo_crash
 
 stage groups-4.x groups-web-4.x
+merge groups-4.x remotes/fire/faster-cvtt
