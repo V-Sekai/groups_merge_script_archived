@@ -20,11 +20,6 @@ git remote rm fire || true
 git remote add fire https://github.com/fire/godot
 git fetch fire
 #
-git remote rm godotengine || true
-git remote add godotengine https://github.com/godotengine/godot
-git remote set-url --push godotengine https://example.com/
-git fetch godotengine
-#
 git remote rm v-sekai-godot || true
 git remote add v-sekai-godot git@github.com:V-Sekai/godot.git
 git fetch v-sekai-godot
