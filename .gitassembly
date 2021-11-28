@@ -1,4 +1,4 @@
-stage groups-web-4.x remotes/godotengine/master
+stage groups-web-4.x remotes/v-sekai-godot/master
 merge groups-web-4.x remotes/v-sekai-godot/gltf-alpha
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache
