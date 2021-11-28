@@ -81,6 +81,16 @@ git remote rm clayjohn || true
 git remote add clayjohn https://github.com/clayjohn/godot.git
 git fetch clayjohn
 # 
+git remote rm Razoric480 || true
+git remote add Razoric480 https://github.com/Razoric480/godot.git
+git fetch Razoric480
+#
+git remote rm jmb462 || true
+git remote add jmb462 https://github.com/jmb462/godot.git
+git fetch jmb462
+#
+
+
 
 
 
