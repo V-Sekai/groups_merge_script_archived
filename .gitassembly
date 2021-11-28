@@ -15,6 +15,7 @@ merge groups-web-4.x remotes/v-sekai-godot/remove-etc1
 merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-web-4.x remotes/lyuma/node3d_gizmo_crash
 merge groups-web-4.x remotes/v-sekai-godot/nav-mesh-spam
+merge groups-web-4.x remotes/lyuma/revert_project_warning_system
 merge groups-web-4.x remotes/Razoric480/raz/simul-bezier-edit
 merge groups-web-4.x remotes/jmb462/fix-bad-popup-offset-with-single-window-off
 
