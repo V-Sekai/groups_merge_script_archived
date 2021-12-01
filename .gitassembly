@@ -16,6 +16,7 @@ merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-web-4.x remotes/lyuma/node3d_gizmo_crash
 merge groups-web-4.x remotes/v-sekai-godot/nav-mesh-spam
 merge groups-web-4.x remotes/tokage/fix-blending-with-PRSTrack
+merge groups-web-4.x remotes/v-sekai-godot/revert-import-scene-options
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
