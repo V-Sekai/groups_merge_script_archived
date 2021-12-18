@@ -21,3 +21,6 @@ merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
+
+stage groups-svg-4.x groups-4.x
+merge groups-svg-4.x remotes/fire/thorvg
