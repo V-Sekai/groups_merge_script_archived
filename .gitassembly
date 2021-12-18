@@ -18,9 +18,7 @@ merge groups-web-4.x remotes/v-sekai-godot/create_node_and_doc_fix
 merge groups-web-4.x remotes/v-sekai-godot/prev_operand_nullptr_check
 merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
+merge groups-svg-4.x remotes/fire/thorvg
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
-
-stage groups-svg-4.x groups-4.x
-merge groups-svg-4.x remotes/fire/thorvg
