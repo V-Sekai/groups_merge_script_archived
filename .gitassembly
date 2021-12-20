@@ -19,7 +19,6 @@ merge groups-web-4.x remotes/v-sekai-godot/prev_operand_nullptr_check
 merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
 merge groups-web-4.x remotes/fire/thorvg # pr
-merge groups-web-4.x remotes/v-sekai-godot/headless_os_features # revised faless's fix
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
