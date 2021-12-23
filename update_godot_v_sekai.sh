@@ -88,7 +88,10 @@ git remote rm Faless || true
 git remote add Faless https://github.com/Faless/godot.git
 git fetch Faless
 #
-
+git remote rm nikitalita || true
+git remote add nikitalita https://github.com/nikitalita/godot.git
+git fetch nikitalita
+#
 
 
 

@@ -4,7 +4,6 @@ merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache # Ignored because this i
 merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-web-4.x remotes/v-sekai-godot/editor-crash
-merge groups-web-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
 merge groups-web-4.x remotes/groud/fix_import_plugins
 merge groups-web-4.x remotes/v-sekai-godot/remove-etc1 # Custom V-Sekai change
 merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
@@ -19,6 +18,7 @@ merge groups-web-4.x remotes/v-sekai-godot/prev_operand_nullptr_check
 merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
 merge groups-web-4.x remotes/fire/thorvg # pr
+merge groups-web-4.x remotes/nikitalita/fix-save-as-binary # pr
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
