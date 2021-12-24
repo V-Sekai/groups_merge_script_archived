@@ -84,8 +84,14 @@ git remote rm jmb462 || true
 git remote add jmb462 https://github.com/jmb462/godot.git
 git fetch jmb462
 #
-
-
+git remote rm Faless || true
+git remote add Faless https://github.com/Faless/godot.git
+git fetch Faless
+#
+git remote rm nikitalita || true
+git remote add nikitalita https://github.com/nikitalita/godot.git
+git fetch nikitalita
+#
 
 
 

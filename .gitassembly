@@ -1,14 +1,9 @@
 stage groups-web-4.x remotes/v-sekai-godot/master
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache # Ignored because this is a combination of two existing pull requests
-merge groups-web-4.x remotes/v-sekai-godot/audio_camera_null_mitigation
-merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-web-4.x remotes/v-sekai-godot/editor-crash
-merge groups-web-4.x remotes/v-sekai-godot/remove-res-to-bin # Deadend feature.
-merge groups-web-4.x remotes/v-sekai-godot/gdscript-cache-null
-merge groups-web-4.x remotes/v-sekai-godot/animtree-advance-expressions
 merge groups-web-4.x remotes/groud/fix_import_plugins
 merge groups-web-4.x remotes/v-sekai-godot/remove-etc1 # Custom V-Sekai change
 merge groups-web-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
@@ -17,10 +12,15 @@ merge groups-web-4.x remotes/v-sekai-godot/nav-mesh-spam
 merge groups-web-4.x remotes/tokage/fix-blending-with-PRSTrack
 merge groups-web-4.x remotes/v-sekai-godot/revert-import-scene-options
 merge groups-web-4.x remotes/briansemrau/texture-delete-update
+merge groups-web-4.x remotes/v-sekai-godot/feature/spatial-audio
 merge groups-web-4.x remotes/v-sekai-godot/create_node_and_doc_fix
 merge groups-web-4.x remotes/v-sekai-godot/prev_operand_nullptr_check
+merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
+merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
 merge groups-web-4.x remotes/v-sekai-godot/auto_rm_3
 merge groups-web-4.x remotes/v-sekai-godot/invalid_setter_assign_fix
+merge groups-web-4.x remotes/fire/thorvg # pr
+merge groups-web-4.x remotes/nikitalita/fix-save-as-binary # pr
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
