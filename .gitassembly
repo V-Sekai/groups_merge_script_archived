@@ -22,6 +22,7 @@ merge groups-web-4.x remotes/v-sekai-godot/invalid_setter_assign_fix
 merge groups-web-4.x remotes/v-sekai-godot/invalid_explicit_variant_assign_fix
 merge groups-web-4.x remotes/fire/thorvg # pr
 merge groups-web-4.x remotes/nikitalita/fix-save-as-binary # pr
+merge groups-web-4.x remotes/v-sekai-godot/scene_phys_nav_import_options
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
