@@ -11,7 +11,7 @@ scoop install llvm-mingw msys2
 pacman -S ssh-pageant openssh git python3
 # Copy to ~/.bashrc
 # eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
-./update_godot_v_sekai.sh
+sh ./update_godot_v_sekai.sh
 cd ..
 git clone https://github.com/V-Sekai/groups-workspace-fire workspace
 cd workspace
