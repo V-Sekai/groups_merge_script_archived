@@ -24,6 +24,7 @@ merge groups-web-4.x remotes/fire/thorvg # pr
 merge groups-web-4.x remotes/nikitalita/fix-save-as-binary # pr
 merge groups-web-4.x remotes/v-sekai-godot/scene_phys_nav_import_options
 merge groups-web-4.x remotes/Gallilus/Update-visual-script-property-selector # pr https://github.com/godotengine/godot/pull/56252
+merge groups-web-4.x remotes/v-sekai-godot/import-crash
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
