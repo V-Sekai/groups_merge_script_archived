@@ -26,7 +26,7 @@ merge groups-web-4.x remotes/v-sekai-godot/scene_phys_nav_import_options
 merge groups-web-4.x remotes/Gallilus/Update-visual-script-property-selector # pr https://github.com/godotengine/godot/pull/56252
 merge groups-web-4.x remotes/v-sekai-godot/import-crash
 merge groups-web-4.x remotes/NNesh/fix/empty-resource-index-cache
-merge groups-web-4.x remotes/v-sekai/blend-io
+merge groups-web-4.x remotes/v-sekai-godot/blend-io
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
