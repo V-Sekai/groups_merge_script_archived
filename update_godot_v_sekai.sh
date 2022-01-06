@@ -92,9 +92,14 @@ git remote rm nikitalita || true
 git remote add nikitalita https://github.com/nikitalita/godot.git
 git fetch nikitalita
 #
-
-
-
+git remote rm Gallilus || true
+git remote add Gallilus https://github.com/Gallilus/godot.git
+git fetch Gallilus
+#
+git remote rm NNesh || true
+git remote add NNesh https://github.com/NNesh/godot.git
+git fetch NNesh
+#
 
 
 
