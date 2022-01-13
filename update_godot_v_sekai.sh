@@ -100,6 +100,10 @@ git remote rm NNesh || true
 git remote add NNesh https://github.com/NNesh/godot.git
 git fetch NNesh
 #
+git remote rm Calinou || true
+git remote add Calinou https://github.com/Calinou/godot.git
+git fetch Calinou
+#
 
 
 

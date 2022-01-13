@@ -25,6 +25,7 @@ merge groups-web-4.x remotes/Gallilus/Update-visual-script-property-selector # p
 merge groups-web-4.x remotes/v-sekai-godot/import-crash
 merge groups-web-4.x remotes/NNesh/fix/empty-resource-index-cache
 merge groups-web-4.x remotes/v-sekai-godot/blend-io
+merge groups-web-4.x remotes/Calinou/sdfgi-allow-any-number-of-cascades
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
