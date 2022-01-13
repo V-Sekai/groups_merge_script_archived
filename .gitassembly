@@ -26,6 +26,7 @@ merge groups-web-4.x remotes/v-sekai-godot/import-crash
 merge groups-web-4.x remotes/NNesh/fix/empty-resource-index-cache
 merge groups-web-4.x remotes/v-sekai-godot/blend-io
 merge groups-web-4.x remotes/v-sekai-godot/gltf-skip-draco
+merge groups-web-4.x remotes/BastiaanOlij/OpenXR_Core4
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
