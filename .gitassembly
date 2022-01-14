@@ -18,7 +18,6 @@ merge groups-web-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-web-4.x remotes/v-sekai-godot/fix-auto-reload-scripts
 merge groups-web-4.x remotes/v-sekai-godot/invalid_setter_assign_fix
 merge groups-web-4.x remotes/v-sekai-godot/invalid_explicit_variant_assign_fix
-merge groups-web-4.x remotes/fire/thorvg # pr
 merge groups-web-4.x remotes/nikitalita/fix-save-as-binary # pr
 merge groups-web-4.x remotes/v-sekai-godot/scene_phys_nav_import_options
 merge groups-web-4.x remotes/v-sekai-godot/import-crash
