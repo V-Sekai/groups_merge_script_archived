@@ -26,10 +26,8 @@ merge groups-web-4.x remotes/v-sekai-godot/blend-io
 merge groups-web-4.x remotes/Calinou/sdfgi-allow-any-number-of-cascades
 merge groups-web-4.x remotes/briansemrau/threadsafe-drawpute-lists
 merge groups-web-4.x remotes/v-sekai-godot/roughness-filtering
-merge groups-web-4.x remotes/v-sekai-godot/fix-default-filename # pr https://github.com/godotengine/godot/pull/47275
 merge groups-web-4.x remotes/v-sekai-godot/better-sdfgi-defaults # Todo: fire 2022-01-16T13:43:41.230-08:00
 merge groups-web-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-16T14:14:46.611-08:00
-merge groups-web-4.x remotes/v-sekai-godot/wasgopp
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
