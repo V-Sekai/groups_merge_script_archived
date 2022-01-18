@@ -26,7 +26,6 @@ merge groups-web-4.x remotes/v-sekai-godot/roughness-filtering
 merge groups-web-4.x remotes/v-sekai-godot/better-sdfgi-defaults # Todo: fire 2022-01-16T13:43:41.230-08:00
 merge groups-web-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-16T14:14:46.611-08:00
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-crashes
-merge groups-web-4.x remotes/briansemrau/fix-gdscriptcache-deadlock
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
