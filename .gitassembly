@@ -28,6 +28,7 @@ merge groups-web-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-
 merge groups-web-4.x remotes/v-sekai-godot/gdscript-crashes
 merge groups-web-4.x remotes/v-sekai-godot/scene-import-fixes # Todo: fire - 2022-01-18T21:23:00-0800
 merge groups-web-4.x remotes/v-sekai-godot/override-import # pr
+merge groups-web-4.x remotes/v-sekai-godot/silence-deps-dot-godot # Todo: fire - 2022-01-20T19:38:58-0800
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
