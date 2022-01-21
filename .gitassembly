@@ -33,4 +33,4 @@ merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-
 merge groups-web-4.x remotes/lyuma/etcpak_po2
 
 stage groups-4.x groups-web-4.x
-merge groups-4.x remotes/fire/faster-cvtt
+# merge groups-4.x remotes/fire/faster-cvtt conflicting
