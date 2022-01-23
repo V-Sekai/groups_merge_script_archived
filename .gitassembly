@@ -23,12 +23,10 @@ merge groups-web-4.x remotes/briansemrau/threadsafe-drawpute-lists
 merge groups-web-4.x remotes/v-sekai-godot/roughness-filtering
 merge groups-web-4.x remotes/v-sekai-godot/better-sdfgi-defaults # Todo: fire 2022-01-16T13:43:41.230-08:00
 merge groups-web-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-16T14:14:46.611-08:00
-merge groups-web-4.x remotes/v-sekai-godot/gdscript-crashes
 merge groups-web-4.x remotes/v-sekai-godot/scene-import-fixes # Todo: fire - 2022-01-18T21:23:00-0800
 merge groups-web-4.x remotes/v-sekai-godot/override-import # pr
 merge groups-web-4.x remotes/v-sekai-godot/silence-deps-dot-godot # Todo: fire - 2022-01-20T19:38:58-0800
-merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T21:44:24-0800
-merge groups-web-4.x remotes/lyuma/etcpak_po2
+merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T21:44:24-0800s
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
