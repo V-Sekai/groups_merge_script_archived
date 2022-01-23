@@ -26,8 +26,11 @@ merge groups-web-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-
 merge groups-web-4.x remotes/v-sekai-godot/scene-import-fixes # Todo: fire - 2022-01-18T21:23:00-0800
 merge groups-web-4.x remotes/v-sekai-godot/override-import # pr
 merge groups-web-4.x remotes/v-sekai-godot/silence-deps-dot-godot # Todo: fire - 2022-01-20T19:38:58-0800
-merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T21:44:24-0800s
-merge groups-web-4.x remotes/fire/faster-cvtt
+merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T21:44:24-0800
 
-stage groups-web-4.x groups-infra-4.x
+stage groups-4.x groups-web-4.x
+merge groups-4.x remotes/fire/faster-cvtt
+
+stage groups-infra-4.x groups-4.x
 merge groups-infra-4.x remotes/v-sekai-godot/elixir-4
+
