@@ -1,4 +1,4 @@
-stage groups-web-4.x remotes/v-sekai-godot/master
+stage groups-web-4.x remotes/v-sekai-godot/4.0
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache # Ignored because this is a combination of two existing pull requests
 merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
