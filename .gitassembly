@@ -29,8 +29,6 @@ merge groups-web-4.x remotes/v-sekai-godot/silence-deps-dot-godot # Todo: fire -
 merge groups-web-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T21:44:24-0800
 merge groups-web-4.x remotes/v-sekai-godot/quieter-particle-msg # Todo: fire - 2022-01-24T03:22:32-0800
 merge groups-web-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.com/godotengine/godot/pull/54205
-merge groups-web-4.x remotes/BastiaanOlij/OpenXR_Core4
-merge groups-web-4.x remotes/v-sekai-godot/openxr-core-4
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt
