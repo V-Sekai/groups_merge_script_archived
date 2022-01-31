@@ -32,6 +32,7 @@ merge groups-web-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.
 merge groups-web-4.x remotes/v-sekai-godot/gltf-extension-usage # Todo: fire - 2022-01-28T23:44:30-0800
 merge groups-web-4.x remotes/v-sekai-godot/temp-openxr
 # merge groups-web-4.x remotes/BastiaanOlij/OpenXR_Core4
+merge groups-web-4.x remotes/AnilBK/thorvg-0.7.1
 
 stage groups-4.x groups-web-4.x
 merge groups-4.x remotes/fire/faster-cvtt

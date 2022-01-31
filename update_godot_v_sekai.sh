@@ -68,7 +68,10 @@ git remote rm Calinou || true
 git remote add Calinou https://github.com/Calinou/godot.git
 git fetch Calinou
 #
-
+git remote rm AnilBK || true
+git remote add AnilBK https://github.com/AnilBK/godot.git
+git fetch AnilBK
+#
 
 
 merge_branch () {
