@@ -1,4 +1,4 @@
-stage groups-web-4.x remotes/v-sekai-godot/4.0
+stage groups-web-4.x remotes/v-sekai-godot/master
 merge groups-web-4.x remotes/lyuma/gltf_shapes_8bones
 merge groups-web-4.x remotes/v-sekai-godot/ninja-ccache # Ignored because this is a combination of two existing pull requests
 merge groups-web-4.x remotes/v-sekai-godot/class-search-crash
@@ -31,9 +31,5 @@ merge groups-web-4.x remotes/v-sekai-godot/quieter-particle-msg # Todo: fire - 2
 merge groups-web-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.com/godotengine/godot/pull/54205
 merge groups-web-4.x remotes/v-sekai-godot/gltf-extension-usage # Todo: fire - 2022-01-28T23:44:30-0800
 merge groups-web-4.x remotes/BastiaanOlij/OpenXR_Core4
-merge groups-web-4.x remotes/AnilBK/thorvg-0.7.1
-
-stage groups-4.x groups-web-4.x
-merge groups-4.x remotes/fire/faster-cvtt
 
 
