@@ -49,8 +49,8 @@ merge_branch () {
     git branch -D $MERGE_BRANCH || true
 }
 
-if ! [[ "`git rev-parse --abbrev-ref HEAD`"=="$MERGE_BRANCH" ]]; then
-	echo "Failed to run merge script: not on $MERGE_BRANCH branch."
+if [[ "`git rev-parse --abbrev-ref HEAD`"!="$ORIGINAL_BRANCH" ]]; then
+	echo "Failed to run merge script: not on $ORIGINAL_BRANCH branch."
 	exit 1
 fi
 
