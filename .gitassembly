@@ -31,5 +31,8 @@ merge groups-4.x remotes/v-sekai-godot/quieter-particle-msg # Todo: fire - 2022-
 merge groups-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.com/godotengine/godot/pull/54205
 # merge groups-4.x remotes/v-sekai-godot/gltf-extension-usage # Todo: fire - 2022-01-28T23:44:30-0800
 merge groups-4.x remotes/BastiaanOlij/OpenXR_Core4
+merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop
+merge groups-4.x remotes/v-sekai-godot/fix_double_free_warning
+merge groups-4.x remotes/v-sekai-godot/fix_instance_clear_warnings
 
 
