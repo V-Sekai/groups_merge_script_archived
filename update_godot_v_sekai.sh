@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 set -e
 
 ORIGINAL_BRANCH=merge-script-4.x
