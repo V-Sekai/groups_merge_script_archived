@@ -1,76 +1,35 @@
 set -e
 
-git stash
+ORIGINAL_BRANCH=merge-script-4.x
+MERGE_REMOTE=v-sekai-godot
+MERGE_BRANCH=groups-4.x
 
 echo -e "Checkout remotes"
+
+add_remote ()
+{
+	git remote add "$1" "$2" || git remote set-url "$1" "$2"
+	git fetch "$1"
+}
+
 #
-git remote rm SaracenOne || true
-git remote add SaracenOne https://github.com/SaracenOne/godot
-git fetch SaracenOne
-#
-git remote rm lyuma || true
-git remote add lyuma https://github.com/lyuma/godot
-git fetch lyuma
-#
-git remote rm fire || true
-git remote add fire https://github.com/fire/godot
-git fetch fire
-#
-git remote rm v-sekai-godot || true
-git remote add v-sekai-godot git@github.com:V-Sekai/godot.git
-git fetch v-sekai-godot
-#
-git remote rm BastiaanOlij || true
-git remote add BastiaanOlij https://github.com/BastiaanOlij/godot.git
-git fetch BastiaanOlij
-#
-git remote rm tokage || true
-git remote add tokage https://github.com/TokageItLab/godot.git
-git fetch tokage
-#
-git remote rm reduz || true
-git remote add reduz https://github.com/reduz/godot
-git fetch reduz
-#
-git remote rm briansemrau || true
-git remote add briansemrau https://github.com/briansemrau/godot.git
-git fetch briansemrau
-# 
-git remote rm Faless || true
-git remote add Faless https://github.com/Faless/godot.git
-git fetch Faless
-# 
-git remote rm groud || true
-git remote add groud https://github.com/groud/godot.git
-git fetch groud
-# 
-git remote rm jonbonazza || true
-git remote add jonbonazza https://github.com/jonbonazza/godot.git
-git fetch jonbonazza
-# 
-git remote rm Chaosus || true
-git remote add Chaosus https://github.com/Chaosus/godot.git
-git fetch Chaosus
-# 
-git remote rm clayjohn || true
-git remote add clayjohn https://github.com/clayjohn/godot.git
-git fetch clayjohn
-# 
-git remote rm nikitalita || true
-git remote add nikitalita https://github.com/nikitalita/godot.git
-git fetch nikitalita
-#
-git remote rm NNesh || true
-git remote add NNesh https://github.com/NNesh/godot.git
-git fetch NNesh
-#
-git remote rm Calinou || true
-git remote add Calinou https://github.com/Calinou/godot.git
-git fetch Calinou
-#
-git remote rm AnilBK || true
-git remote add AnilBK https://github.com/AnilBK/godot.git
-git fetch AnilBK
+add_remote SaracenOne https://github.com/SaracenOne/godot
+add_remote lyuma https://github.com/lyuma/godot
+add_remote fire https://github.com/fire/godot
+add_remote v-sekai-godot git@github.com:V-Sekai/godot.git
+add_remote BastiaanOlij https://github.com/BastiaanOlij/godot.git
+add_remote tokage https://github.com/TokageItLab/godot.git
+add_remote reduz https://github.com/reduz/godot
+add_remote briansemrau https://github.com/briansemrau/godot.git
+add_remote Faless https://github.com/Faless/godot.git
+add_remote groud https://github.com/groud/godot.git
+add_remote jonbonazza https://github.com/jonbonazza/godot.git
+add_remote Chaosus https://github.com/Chaosus/godot.git
+add_remote clayjohn https://github.com/clayjohn/godot.git
+add_remote nikitalita https://github.com/nikitalita/godot.git
+add_remote NNesh https://github.com/NNesh/godot.git
+add_remote Calinou https://github.com/Calinou/godot.git
+add_remote AnilBK https://github.com/AnilBK/godot.git
 #
 
 
@@ -88,9 +47,20 @@ merge_branch () {
     git branch -D $MERGE_BRANCH || true
 }
 
-echo -e "Work"
+if ! [[ "`git rev-parse --abbrev-ref HEAD`"=="$MERGE_BRANCH" ]]; then
+	echo "Failed to run merge script: not on $MERGE_BRANCH branch."
+	exit 1
+fi
+
+echo -e "*** Working on assembling .gitassembly"
+has_changes=0
+git diff --quiet HEAD || has_changes=1
 git stash
-export ORIGINAL_BRANCH=merge-script-4.x
-export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=groups-4.x
 merge_branch
+echo -e "ALL DONE. ----------------------------"
+if [[ $has_changes -ne 0 ]]; then
+	echo "Note that any uncommitted changes to the merge script may have been stashed. Run"
+	echo "    git stash apply"
+	echo "to re-apply those stashed changes"
+	git stash list
+fi
