@@ -5,6 +5,29 @@ set -e
 ORIGINAL_BRANCH=merge-script-4.x
 MERGE_REMOTE=v-sekai-godot
 MERGE_BRANCH=groups-4.x
+DRY_RUN=0
+
+while [[ -n "$1" ]]; do
+	echo "ARG $1"
+	if [[ "$1" == "-h" ]] || [[ "$1" == "--help" ]]; then
+		echo "Usage: $0 [--help|-h] [--dry-run|--no-push|-n]"
+		echo ""
+		echo "Compiles all branches in .gitassembly and pushes to V-Sekai/godot"
+		echo "Automatically creates a tag and pushes by default."
+		echo ""
+		echo "--help"
+		echo "    -h  Display help"
+		echo ""
+		echo "--dry-run"
+		echo "       -n  Does not push or create tag."
+		echo ""
+		exit
+	fi
+	if [[ "$1" == "-n" ]] || [[ "$1" == "--no-push" ]] || [[ "$1" == "--dry-run" ]]; then
+		DRY_RUN=1
+	fi
+	shift
+done
 
 echo -e "Checkout remotes"
 
@@ -42,14 +65,20 @@ merge_branch () {
     git checkout $MERGE_BRANCH -f
     export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
     export MERGE_TAG=$(echo $MERGE_BRANCH.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
-    git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
-    git push $MERGE_REMOTE $MERGE_TAG
-    git push $MERGE_REMOTE $MERGE_BRANCH -f
+    if [[ $DRY_RUN -eq 0 ]]; then
+        git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
+        git push $MERGE_REMOTE $MERGE_TAG
+        git push $MERGE_REMOTE $MERGE_BRANCH -f
+    fi
     git checkout $ORIGINAL_BRANCH --force
-    git branch -D $MERGE_BRANCH || true
+    if [[ $DRY_RUN -eq 0 ]]; then
+        git branch -D $MERGE_BRANCH || true
+    else
+        echo "$MERGE_BRANCH was created and is ready to push."
+    fi
 }
 
-if ! [[ "`git rev-parse --abbrev-ref HEAD`"=="$ORIGINAL_BRANCH" ]]; then
+if ! [[ "`git rev-parse --abbrev-ref HEAD`" == "$ORIGINAL_BRANCH" ]]; then
 	echo "Failed to run merge script: not on $ORIGINAL_BRANCH branch."
 	exit 1
 fi
