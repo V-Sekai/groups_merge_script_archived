@@ -35,3 +35,4 @@ merge groups-4.x remotes/lyuma/blend_shape_format_fix
 merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #draft
 merge groups-4.x remotes/v-sekai-godot/fix_double_free_warning #pr
 merge groups-4.x remotes/v-sekai-godot/fix_instance_clear_warnings #pr
+merge groups-4.x remotes/reduz/fix-resoure-reuse-in-binary-loader
