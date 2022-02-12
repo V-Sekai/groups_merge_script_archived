@@ -17,7 +17,6 @@ merge groups-4.x remotes/v-sekai-godot/invalid_setter_assign_fix
 merge groups-4.x remotes/v-sekai-godot/invalid_explicit_variant_assign_fix
 merge groups-4.x remotes/nikitalita/fix-save-as-binary # pr
 merge groups-4.x remotes/v-sekai-godot/import-crash
-merge groups-4.x remotes/NNesh/fix/empty-resource-index-cache
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/briansemrau/threadsafe-drawpute-lists
 merge groups-4.x remotes/v-sekai-godot/roughness-filtering
