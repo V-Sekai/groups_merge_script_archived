@@ -10,17 +10,14 @@ merge groups-4.x remotes/lyuma/node3d_gizmo_crash
 merge groups-4.x remotes/v-sekai-godot/nav-mesh-spam
 merge groups-4.x remotes/briansemrau/texture-delete-update
 merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio
-merge groups-4.x remotes/v-sekai-godot/create_node_and_doc_fix
-merge groups-4.x remotes/v-sekai-godot/prev_operand_nullptr_check
 merge groups-4.x remotes/v-sekai-godot/compatibility-classes
-merge groups-4.x remotes/v-sekai-godot/invalid_setter_assign_fix
-merge groups-4.x remotes/v-sekai-godot/invalid_explicit_variant_assign_fix
 merge groups-4.x remotes/nikitalita/fix-save-as-binary # pr
 merge groups-4.x remotes/v-sekai-godot/import-crash
+merge groups-4.x remotes/NNesh/fix/empty-resource-index-cache
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/briansemrau/threadsafe-drawpute-lists
 merge groups-4.x remotes/v-sekai-godot/roughness-filtering
-# merge groups-4.x remotes/v-sekai-godot/better-sdfgi-defaults # Todo: fire 2022-01-16T13:43:41.230-08:00
+merge groups-4.x remotes/v-sekai-godot/better-sdfgi-defaults # Todo: fire 2022-01-16T13:43:41.230-08:00
 merge groups-4.x remotes/v-sekai-godot/add-editor-info # Todo: fire 2022-01-16T14:14:46.611-08:00
 merge groups-4.x remotes/v-sekai-godot/scene-import-fixes # Todo: fire - 2022-01-18T21:23:00-0800
 merge groups-4.x remotes/v-sekai-godot/silence-deps-dot-godot # Todo: fire - 2022-01-20T19:38:58-0800
@@ -28,8 +25,8 @@ merge groups-4.x remotes/v-sekai-godot/deprecate-fbx # Todo: fire - 2022-01-20T2
 merge groups-4.x remotes/v-sekai-godot/quieter-particle-msg # Todo: fire - 2022-01-24T03:22:32-0800
 merge groups-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.com/godotengine/godot/pull/54205
 # merge groups-4.x remotes/v-sekai-godot/gltf-extension-usage # Todo: fire - 2022-01-28T23:44:30-0800
-#merge groups-4.x remotes/BastiaanOlij/OpenXR_Core4
-#merge groups-4.x remotes/lyuma/tmpoxr
+# merge groups-4.x remotes/BastiaanOlij/OpenXR_Core4
+merge groups-4.x remotes/lyuma/tmpoxr # workaround merge conflict
 merge groups-4.x remotes/lyuma/blend_shape_format_fix
 merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #draft
 merge groups-4.x remotes/v-sekai-godot/fix_double_free_warning #pr
