@@ -31,3 +31,4 @@ merge groups-4.x remotes/lyuma/blend_shape_format_fix
 merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #draft
 merge groups-4.x remotes/v-sekai-godot/explicit_variant_assignment_fix #pr
 merge groups-4.x remotes/v-sekai-godot/gd-ext-video-decoder # Todo: fire - 2022-02-16
+merge groups-4.x remotes/v-sekai-godot/debugger_locals #pr
