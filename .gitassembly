@@ -28,7 +28,11 @@ merge groups-4.x remotes/tokage/fix-blending-with-PRSTrack # https://github.com/
 merge groups-4.x remotes/BastiaanOlij/OpenXR_Core4
 # merge groups-4.x remotes/lyuma/tmpoxr # workaround merge conflict
 merge groups-4.x remotes/lyuma/blend_shape_format_fix
-merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #draft
+merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #pr
 merge groups-4.x remotes/v-sekai-godot/explicit_variant_assignment_fix #pr
 merge groups-4.x remotes/v-sekai-godot/gd-ext-video-decoder # Todo: fire - 2022-02-16
 merge groups-4.x remotes/v-sekai-godot/debugger_locals #pr
+merge groups-4.x remotes/v-sekai-godot/typed_array_fix #pr
+merge groups-4.x remotes/v-sekai-godot/typed_fail_case_return #pr
+merge groups-4.x remotes/bruvzg/win_min_fix #pr
+
