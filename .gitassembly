@@ -36,3 +36,4 @@ merge groups-4.x remotes/v-sekai-godot/typed_array_fix #pr
 merge groups-4.x remotes/v-sekai-godot/typed_fail_case_return #pr
 merge groups-4.x remotes/bruvzg/win_min_fix #pr
 merge groups-4.x remotes/v-sekai-godot/uid_fix #pr
+merge groups-4.x remotes/v-sekai-godot/attribute_parse_crash_fix
