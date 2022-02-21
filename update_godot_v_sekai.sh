@@ -56,6 +56,7 @@ add_remote NNesh https://github.com/NNesh/godot.git
 add_remote Calinou https://github.com/Calinou/godot.git
 add_remote AnilBK https://github.com/AnilBK/godot.git
 add_remote bruvzg https://github.com/bruvzg/godot.git
+add_remote timothyqiu https://github.com/timothyqiu/godot.git
 #
 
 
