@@ -32,4 +32,3 @@ merge groups-4.x remotes/v-sekai-godot/debugger_locals #pr
 merge groups-4.x remotes/v-sekai-godot/typed_array_fix #pr
 merge groups-4.x remotes/v-sekai-godot/typed_fail_case_return #pr
 merge groups-4.x remotes/v-sekai-godot/attribute_parse_crash_fix
-merge groups-4.x remotes/v-sekai-godot/lod_lightmaps #pr
