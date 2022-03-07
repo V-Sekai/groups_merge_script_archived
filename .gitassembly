@@ -13,7 +13,6 @@ merge groups-4.x remotes/v-sekai-godot/feature/spatial-audio
 merge groups-4.x remotes/v-sekai-godot/compatibility-classes
 merge groups-4.x remotes/nikitalita/fix-save-as-binary # pr
 merge groups-4.x remotes/v-sekai-godot/import-crash
-merge groups-4.x remotes/v-sekai-godot/fix/empty-resource-index-cache
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/briansemrau/threadsafe-drawpute-lists
 merge groups-4.x remotes/v-sekai-godot/roughness-filtering
