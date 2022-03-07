@@ -27,6 +27,5 @@ merge groups-4.x remotes/lyuma/blend_shape_format_fix
 merge groups-4.x remotes/v-sekai-godot/material_drag_and_drop #pr
 merge groups-4.x remotes/Calinou/light-3d-shadow-blur-auto-bias #pr
 merge groups-4.x remotes/Calinou/light-3d-tweak-shadow-bias #pr
-merge groups-4.x remotes/tokage/fix-blending #pr
 merge groups-4.x remotes/v-sekai-godot/openxr_crashfix # pending pr by Saracen 2022-03-06
 merge groups-4.x remotes/tokage/skeleton-retarget-and-animation-overhaul #pr
