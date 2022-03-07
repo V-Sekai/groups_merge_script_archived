@@ -34,3 +34,4 @@ merge groups-4.x remotes/v-sekai-godot/attribute_parse_crash_fix
 merge groups-4.x remotes/Calinou/light-3d-shadow-blur-auto-bias #pr
 merge groups-4.x remotes/Calinou/light-3d-tweak-shadow-bias #pr
 merge groups-4.x remotes/tokage/fix-blending #pr
+merge groups-4.x remotes/v-sekai-godot/openxr_crashfix # pending pr by Saracen 2022-03-06
