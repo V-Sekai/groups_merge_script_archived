@@ -5,6 +5,7 @@ set -e
 ORIGINAL_BRANCH=merge-script-4.x
 MERGE_REMOTE=v-sekai-godot
 MERGE_BRANCH=groups-4.x
+MERGE_BRANCH_SHARED=groups-shared-4.x
 DRY_RUN=0
 
 while [[ -n "$1" ]]; do
@@ -92,6 +93,8 @@ echo -e "*** Working on assembling .gitassembly"
 has_changes=0
 git diff --quiet HEAD || has_changes=1
 git stash
+merge_branch
+export MERGE_BRANCH=$MERGE_BRANCH_SHARED
 merge_branch
 echo -e "ALL DONE. ----------------------------"
 if [[ $has_changes -ne 0 ]]; then
