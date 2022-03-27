@@ -35,6 +35,7 @@ merge groups-4.x remotes/v-sekai-godot/gltf-binary-img-compression # Todo fire -
 merge groups-4.x remotes/v-sekai-godot/svg-crash
 merge groups-4.x remotes/v-sekai-godot/primitive-indicies
 merge groups-4.x remotes/techiepriyansh/move-gltf-export-under-scene-menu #pr
+merge groups-4.x remotes/v-sekai-godot/expose-gizmo-functions
 
 stage groups-shared-4.x groups-4.x
 merge groups-shared-4.x remotes/v-sekai-godot/elixir-shared
