@@ -5,6 +5,7 @@ merge groups-4.x remotes/v-sekai-godot/gdscript-crash
 merge groups-4.x remotes/v-sekai-godot/editor-crash
 merge groups-4.x remotes/v-sekai-godot/editorfilesystem_reentrant_scan
 merge groups-4.x remotes/lyuma/node3d_gizmo_crash
+merge groups-4.x remotes/lyuma/editor_normal_priority
 merge groups-4.x remotes/v-sekai-godot/nav-mesh-spam
 merge groups-4.x remotes/briansemrau/texture-delete-update
 merge groups-4.x remotes/v-sekai-godot/3d-audio
@@ -34,7 +35,6 @@ merge groups-4.x remotes/v-sekai-godot/svg-crash
 merge groups-4.x remotes/v-sekai-godot/primitive-indicies
 merge groups-4.x remotes/techiepriyansh/move-gltf-export-under-scene-menu #pr
 merge groups-4.x remotes/v-sekai-godot/expose-gizmo-functions
-# merge groups-4.x remotes/lyuma/gltf_shapes_8bones # merged?
 # merge groups-4.x remotes/v-sekai-godot/gltf-extension-usage # Todo: fire - 2022-01-28T23:44:30-0800
 merge groups-4.x remotes/v-sekai-godot/blend-io
 merge groups-4.x remotes/v-sekai-godot/fbx-import
