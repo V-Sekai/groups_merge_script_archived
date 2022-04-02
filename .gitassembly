@@ -40,5 +40,5 @@ merge groups-4.x remotes/v-sekai-godot/scene_scale
 merge groups-4.x remotes/v-sekai-godot/expose_post_popup
 
 stage groups-shared-4.x groups-4.x
-merge groups-shared-4.x remotes/v-sekai-godot/elixir-shared
+#merge groups-shared-4.x remotes/v-sekai-godot/elixir-shared
 
