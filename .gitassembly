@@ -26,7 +26,6 @@ merge groups-4.x remotes/v-sekai-godot/openxr_crashfix # pending pr by Saracen 2
 merge groups-4.x remotes/v-sekai-godot/print-once-aabb-invalid # Todo: fire - 2022-03-14
 merge groups-4.x remotes/v-sekai-godot/scene_phys_nav_import_options #pr
 merge groups-4.x remotes/v-sekai-godot/ok_color # Todo fire - 2022-03-21
-merge groups-4.x remotes/reduz/add-portable-compressed-texture
 merge groups-4.x remotes/v-sekai-godot/basis-universal-mips
 # merge groups-4.x remotes/v-sekai-godot/gltf-binary-img-compression # Todo fire - 2022-03-24
 merge groups-4.x remotes/v-sekai-godot/primitive-indicies
